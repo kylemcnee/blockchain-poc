@@ -3,7 +3,7 @@ package com.kylemcnee;
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+
         String[] genesisTransactions = {"Rob sent Kyle 1.093 Dogecoin","Kyle sent Rob .082 Monero"};
         Block genesisBlock = new Block(genesisTransactions,0);
 
@@ -22,7 +22,7 @@ public class Main {
 
         System.out.println("Checking the hash allows us to be certain that");
         System.out.println("the data in each block has not been tampered with.");
-        System.out.println("Try writing down the hash of both blocks,");
+        System.out.println("Try writing down the hash of both blocks and then changing a string slightly,");
         System.out.println("then run the program again and see how the Hashes are affected.");
     }
 }
